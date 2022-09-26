@@ -1,0 +1,43 @@
+body {
+    background-image: url(https://i.ytimg.com/vi/mWNFg0N9qDI/maxresdefault.jpg);
+    background-color: gray;
+
+}
+
+.navigation {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    width:100%;
+    list-style-type: none;   
+}
+
+#navigation_align {
+    border-radius: 5px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    width:100%;
+    list-style-type: none;
+    background-color:orange;
+    
+}
+
+.logo {
+    margin-top:5px;
+}
+
+.navigation:hover {
+    background-color:red;  
+}
+
+#contact {
+    width:378px;
+    height:200px;
+    background-color:white;
+    margin-top:100px;
+    border-radius:15px;
+    border:solid;
+    border-color:#77dd77; 
+    color:black;  
+  }
